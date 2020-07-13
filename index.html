@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Cat Gallery.</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<script src="script.js">
+
+	</script>
+	<div class="gallery">
+		<h6>Cat gallery.</h6>
+		<div id="hand">
+			<div class="fingers">
+				<div class="finger-1" id="idek1" onclick="giveMeYourPalm(0)"></div>
+				<div class="finger-2" id="idek2" onclick="giveMeYourPalm(1)"></div>
+				<div class="finger-3" id="idek3" onclick="giveMeYourPalm(2)"></div>
+				<div class="finger-4" id="idek4" onclick="giveMeYourPalm(3)"></div>
+			</div>
+			<div class="paw" onclick="zoom(0)"></div>
+		</div>
+		<div id="hand-2">
+			<div class="fingers">
+				<div class="finger-5" id="idk1" onclick="giveMeYourPalm2(0)"></div>
+				<div class="finger-6" id="idk2" onclick="giveMeYourPalm2(1)"></div>
+				<div class="finger-7" id="idk3" onclick="giveMeYourPalm2(2)"></div>
+				<div class="finger-8" id="idk4" onclick="giveMeYourPalm2(3)"></div>
+			</div>
+			<div class="paw-2" onclick="zoom(1)"></div>
+		</div>
+	</div>
+	<div id="full-image-container">
+		<button onclick="removeZoom()" id="close-button"></button>
+		<img onclick="removeZoom()" id="full-image" src=""/>
+	</div>
+	<footer> Created by
+		<a href="https://repl.it/@lilykhan" target="_blank">Lilykhan</a> with the help of 
+        <a href="https://repl.it/@LucAngevare" target="_blank">William,</a>
+        <a href="https://repl.it/@ApoorvSingal" target="_blank">Kakashi</a> and 
+        <a href="https://github.com/Symbolistic/" target="_blank">Symbol.</a>
+	</footer>
+</body>
+
+</html>

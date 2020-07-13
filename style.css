@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	text-align: center;
+}
+
+body{
+    background: #ffffea;
+    width: 100%;
+	height: 100%;
+}
+
+h6{
+	position: absolute;
+    top: 10px;
+	margin: auto;
+	font-size: 60px;
+	font-weight: normal;
+	font-family: 'Parisienne', cursive;
+}
+
+.gallery{
+	display: flex;
+	justify-content:center;
+    width: 100%;
+	height: 800px;
+}
+
+.fingers{
+	width: 600px;
+	display: flex;
+}
+
+#hand{
+	position: relative;
+	top: 50px;
+}
+
+.paw {
+	position: absolute;
+	top: 150px;
+	height: 500px;
+	width: 500px;
+    -webkit-clip-path: ellipse(50% 40% at 50% 59%);	
+	clip-path: ellipse(50% 40% at 50% 59%);
+	transform:rotate(13deg);
+	background: url('https://data.whicdn.com/images/291329039/original.jpg') bottom;
+	background-repeat:no-repeat;
+	background-size:130%;
+    cursor: pointer;
+}
+
+.finger-1{
+    position:relative;
+	top: 30px;
+	right: 20px;
+	height: 250px;
+	width: 300px;
+    -webkit-clip-path: ellipse(50% 45% at 50% 49%);
+	clip-path: ellipse(50% 45% at 50% 49%);
+    transform: rotate(-20deg);
+	background: url('https://www.catbreedslist.com/cat-wallpapers/Kitten-cute-lying-claws-2560x1440.jpg') center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.finger-2{
+	position:relative;
+ 	height: 250px;
+	width: 300px;
+    -webkit-clip-path: ellipse(50% 45% at 50% 49%);
+	clip-path: ellipse(50% 45% at 50% 49%);
+    transform: rotate(5deg);
+	background: url('https://i.pinimg.com/236x/60/7e/ee/607eee181fbaf0a8f3b881ec0b0337a8.jpg') center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.finger-3{
+	position:relative;
+	top: 30px;
+	left: 15px;
+	height: 250px;
+	width: 300px;
+    -webkit-clip-path: ellipse(50% 45% at 50% 49%);
+	clip-path: ellipse(50% 45% at 50% 49%);
+    transform: rotate(25deg);
+    background: url('https://i.pinimg.com/236x/f5/4a/8e/f54a8eb6f9b3071ee3a6d363cdcec6f2.jpg') center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.finger-4 { 
+	position:relative;
+	top: 135px;
+	height: 250px;
+	width: 300px;
+    -webkit-clip-path: ellipse(50% 45% at 50% 49%);
+	clip-path: ellipse(50% 45% at 50% 49%);
+    transform: rotate(55deg);
+	background: url('https://i.pinimg.com/236x/73/3d/c9/733dc947aa9c0a25b0106711c224a9b7.jpg') center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#hand-2{
+	margin: 20px;
+	position: relative;
+	top: 200px;
+    height: 0;
+}
+
+.paw-2{
+	position: absolute;
+	top: 150px;
+	left: 50px;
+	height: 500px;
+	width: 500px;
+    -webkit-clip-path: ellipse(50% 40% at 50% 59%);	
+	clip-path: ellipse(50% 40% at 50% 59%);
+	transform:rotate(-15deg);
+	background: url('https://jooinn.com/images/adorable-35.jpg') center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}	
+
+.finger-5{
+    position:relative;
+	top: 140px;
+	right: 50px;
+	height: 250px;
+	width: 300px;
+    -webkit-clip-path: ellipse(50% 45% at 50% 49%);
+	clip-path: ellipse(50% 45% at 50% 49%);
+    transform: rotate(-40deg);
+	background: url('https://i.pinimg.com/564x/d5/83/a1/d583a1c074a53671de48a23eeb31b1ec.jpg') center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.finger-6{
+	position:relative;
+	top: 35px;
+	right: 60px;
+ 	height: 250px;
+	width: 300px;
+    -webkit-clip-path: ellipse(50% 45% at 50% 49%);
+	clip-path: ellipse(50% 45% at 50% 49%);
+    transform: rotate(-22deg);
+	background: url('https://i.pinimg.com/236x/bf/dd/f5/bfddf5af60250437203637d8892b11e6.jpg') center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.finger-7{
+	position:relative;
+	right: 45px;
+	height: 250px;
+	width: 300px;
+    -webkit-clip-path: ellipse(50% 45% at 50% 49%);
+	clip-path: ellipse(50% 45% at 50% 49%);
+    transform: rotate(-5deg);
+    background: url('https://i.pinimg.com/236x/21/7c/23/217c23ca9b73101fa10f18d3894dfe74.jpg') center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.finger-8{ 
+	position:relative;
+	top: 35px;
+	right: 20px;
+	height: 250px;
+	width: 300px;
+    -webkit-clip-path: ellipse(50% 45% at 50% 49%);
+	clip-path: ellipse(50% 45% at 50% 49%);
+    transform: rotate(15deg);
+	background: url('https://i.pinimg.com/236x/d0/5c/a9/d05ca93de7566b9f30ee2f991705a8a4.jpg') center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 80px;
+    position: relative;
+    bottom: 0;
+    padding: 10px;
+    font-size: 20px;
+}
+
+a{
+	color: #000;
+    text-decoration: none;
+	font-size: 1.5em;
+    font-family: 'Parisienne', cursive;
+    cursor: pointer;
+}
+
+
+#full-image-container {
+	position: fixed;
+	display: none;
+    top: 0;
+    left: 0;
+    height:100%;
+	width: 100%;
+	opacity: 1;
+    background-color: #ffffea;
+    pointer-events: none;
+} 
+
+#full-image {
+    position: relative;
+    top: 20vh;
+    width: 500px;
+    height: 500px;
+    opacity: 1;
+    object-fit: contain;
+    pointer-events: auto;
+}
+
+#close-button {
+    position: absolute;
+    right: 52px;
+    top: 30px;
+    opacity: 0.3;
+    cursor: pointer; 
+    border: none; 
+    background: none;  
+    pointer-events: auto;
+}
+
+#close-button:hover {
+    opacity: 1;
+}
+
+#close-button:focus{
+    outline: none;
+}
+
+#close-button::before, #close-button::after {
+    position: absolute;
+    top: 0;
+    content: '';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+}
+
+#close-button::before {
+    transform: rotate(45deg);
+}
+
+#close-button::after {
+    transform: rotate(-45deg);
+}
+
+
+@media (max-width: 1320px){ 
+	.gallery {
+      transform: scale(0.9);
+    }
+}
+@media only screen and (max-width: 1180px){ 
+	.gallery {
+      transform: scale(0.8);
+    }
+     footer{
+     margin-top: -20px;
+    }
+}
+@media only screen and (max-width: 1040px){ 
+	.gallery {
+      transform: scale(0.7);
+    }
+
+}
+@media only screen and (max-width: 920px){
+	.gallery {
+      transform: scale(0.6);
+    }
+
+}
+@media only screen and (max-width: 788px){
+	.gallery {
+      transform: scale(0.5);
+    }
+    footer{
+		font-size:1rem;
+	}
+}
+@media only screen and (max-width: 650px){
+	.gallery {
+      transform: scale(0.4);
+    }
+
+}
